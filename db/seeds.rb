@@ -9,4 +9,3 @@
 #   end
 # db/seeds.rb
 # db/seeds.rb
-User.create!(email: 'nhi1107@email.com', password: 'nhi1107', password_confirmation: 'nhi1107')
