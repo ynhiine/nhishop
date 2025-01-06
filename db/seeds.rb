@@ -7,3 +7,13 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+# db/seeds.rb
+
+if User.count == 0 # Chỉ tạo người dùng admin nếu chưa có user nào
+  User.create!(
+    email: "nhi1107@gmail.com",
+    password: "nhi1107",
+    password_confirmation: "nhi1107",
+    admin: true
+  )
+end
