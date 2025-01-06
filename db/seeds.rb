@@ -8,3 +8,5 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 # db/seeds.rb
+# db/seeds.rb
+User.create!(email: 'nhi1107@gmail.com', password: 'nhi1107', password_confirmation: 'nhi1107')
